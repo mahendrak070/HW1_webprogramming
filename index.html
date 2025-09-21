@@ -3,81 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Abhiram Gelle's Homepage</title>
+    <title>Mahendra Krishna Koneru | My Portfolio</title>
+    <!-- External CSS -->
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Abhiram Gelle</h1>
-        <img src="profile.jpeg" alt="Profile Picture" class="profile-pic">
-        <p class="linkedin">
-            <a href="https://www.linkedin.com/in/gelle-abhiram-21332b1a0/" target="_blank">Navigate To LinkedIn</a>
-        </p>
-		<p class="linkedin">
-            <a href="https://github.com/abhiramgelle1/WP-HW-1" target="_blank">GitHub Link To This Page's Work</a>
-        </p>
-    </header>
-	<hr>
+    <!-- Background -->
+    <img src="background.png" alt="Background Image" class="background-img">
 
-    <nav>
-        <ul>
-            <li><a href="https://www.cs.gsu.edu/" target="_blank">CS Department</a></li>
-            <li><a href="#assignments">Assignments</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#hobbies">Hobbies</a></li>
-        </ul>
-    </nav>
+    <div class="container">
+        <header>
+            <h1><span>Mahendra Krishna Koneru</span></h1>
+            <img src="profile.jpg" alt="Profile Picture" class="profile-pic">
+            <p>
+                <a href="http://www.cs.gsu.edu/" target="_blank"><span>Computer Science</span> Department</a> |
+                <a href="https://www.linkedin.com/in/mahendra-krishna-koneru-761979220/" target="_blank">LinkedIn</a> |
+                <a href="https://github.com/mahendrak070" target="_blank">GitHub</a>
+            </p>
+        </header>
 
-    <section id="quote">
-        <div class="quote">“The only way to do great work is to love what you do.” - Steve Jobs</div>
-    </section>
+        <!-- Quote -->
+        <section id="quote">
+            <div class="quote">“The only way to do great work is to love what you do.” – Steve Jobs</div>
+        </section>
 
-    <div class="content-container">
-        <section id="hobbies">
+        <!-- Hobbies -->
+        <section class="card" id="hobbies">
             <h2>Hobbies & Interests</h2>
             <ul>
-                <li>Badminton - <a href="https://www.badmintonbecky.com/tag/vlog/" target="_blank">More Info</a></li>
-                <li>Dancing - <a href="https://www.dancemagazine.com/" target="_blank">Dance Magazine</a></li>
+                <li>Cricket - <a href="https://www.bcci.tv/" target="_blank">BCCI</a></li>
+                <li>Gaming - <a href="https://valorantesports.com/en-US/" target="_blank">Valorant Esports</a></li>
+                <li>Photography</li>
+                <li>Reading Tech Blogs</li>
+                <li>Traveling</li>
             </ul>
         </section>
 
-        <section id="career">
+        <!-- Top 10 Albums -->
+        <section class="card" id="albums">
+            <h2>Top 10 Favorite Albums</h2>
+            <ul>
+                <li>Divide – Ed Sheeran</li>
+                <li>Thriller – Michael Jackson</li>
+                <li>Scorpion – Drake</li>
+                <li>Future Nostalgia – Dua Lipa</li>
+                <li>After Hours – The Weeknd</li>
+                <li>Hybrid Theory – Linkin Park</li>
+                <li>1989 – Taylor Swift</li>
+                <li>Astroworld – Travis Scott</li>
+                <li>Back to Black – Amy Winehouse</li>
+                <li>The Eminem Show – Eminem</li>
+            </ul>
+        </section>
+
+        <!-- Education -->
+        <section class="card" id="education">
+            <h2>Education</h2>
+            <ul>
+                <li>K L University</li>
+                <li><span>Georgia State</span> University</li>
+            </ul>
+        </section>
+
+        <!-- Career -->
+        <section class="card" id="career">
             <h2>Top 3 Dream Jobs</h2>
             <ol>
                 <li>Software Engineer</li>
                 <li>Data Scientist</li>
-                <li>Full Stack Developer - <a href="resume.pdf">Resume</a></li>
+                <li>Full Stack Developer – <a href="resume.pdf">Resume</a></li>
             </ol>
         </section>
-    </div>
 
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li>BML Munjal University</li>
-            <li>Georgia State University</li>
-        </ul>
-    </section>
-
-    <section id="assignments">
-        <h2>Assignments</h2>
+        <!-- Assignments Table -->
+        <h2><span>Projects</span> & Assignments</h2>
         <table class="striped-table">
             <tr><th>Assignment</th><th>Link</th></tr>
-            <tr><td>Assignment 1</td><td><a href="#">View</a></td></tr>
-            <tr><td>Assignment 2</td><td><a href="#">View</a></td></tr>
+            <tr><td>Homework 1</td><td><a href="#">View</a></td></tr>
+            <tr><td>Homework 2</td><td><a href="#">View</a></td></tr>
+            <tr><td>Project 1</td><td><a href="#">View</a></td></tr>
         </table>
-    </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="#">Project 1</a></li>
-            <li><a href="#">Project 2</a></li>
-        </ul>
-    </section>
-
-    <footer>
-        <p>&copy; 2024 Abhiram Gelle. All rights reserved.</p>
-    </footer>
+        <footer>
+            <p>&copy; 2025 <span>Mahendra Krishna</span>. All Rights Reserved. | My <span>Portfolio</span></p>
+        </footer>
+    </div>
 </body>
 </html>
